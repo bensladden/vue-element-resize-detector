@@ -1,13 +1,33 @@
 {
 	"name": "vue-element-resize-detector",
+	"description": "vue directive for element-resize-detector",
+	"keywords": [
+		"vuejs",
+		"element-resize-detector",
+		"v-resize",
+		"vue",
+		"directive"
+	],
 	"version": "0.1.0",
-	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bensladden/vue-element-resize-detector.git"
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/bensladden/vue-element-resize-detector",
+	"author": "Ben Sladden",
+	"main": "dist/vue-element-resize-detector.common.js",
+	"unpkg": "dist/vue-element-resize-detector.umd.min.js",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
+		"build:lib": "rimraf dist && vue-cli-service build --target lib ./src/index.js",
 		"test:unit": "vue-cli-service test:unit",
 		"lint": "vue-cli-service lint"
 	},
+	"license": "MIT",
 	"dependencies": {
 		"element-resize-detector": "^1.1.15"
 	},
@@ -24,6 +44,7 @@
 		"eslint-plugin-prettier": "^3.1.1",
 		"eslint-plugin-vue": "^5.0.0",
 		"prettier": "^1.19.1",
+		"rimraf": "^3.0.0",
 		"vue": "^2.6.10",
 		"vue-template-compiler": "^2.6.10"
 	}
