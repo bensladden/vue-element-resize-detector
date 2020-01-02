@@ -24,6 +24,8 @@
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"build:lib": "rimraf dist && vue-cli-service build --target lib ./src/index.js",
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs",
 		"test:unit": "vue-cli-service test:unit",
 		"lint": "vue-cli-service lint"
 	},
@@ -46,6 +48,7 @@
 		"prettier": "^1.19.1",
 		"rimraf": "^3.0.0",
 		"vue": "^2.6.10",
-		"vue-template-compiler": "^2.6.10"
+		"vue-template-compiler": "^2.6.10",
+		"vuepress": "^1.2.0"
 	}
 }
