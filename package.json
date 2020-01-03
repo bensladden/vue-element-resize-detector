@@ -8,7 +8,7 @@
 		"vue",
 		"directive"
 	],
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/bensladden/vue-element-resize-detector.git"
@@ -16,7 +16,7 @@
 	"files": [
 		"dist"
 	],
-	"homepage": "https://github.com/bensladden/vue-element-resize-detector",
+	"homepage": "https://vue-element-resize-detector.netlify.com/",
 	"author": "Ben Sladden",
 	"main": "dist/vue-element-resize-detector.common.js",
 	"unpkg": "dist/vue-element-resize-detector.umd.min.js",

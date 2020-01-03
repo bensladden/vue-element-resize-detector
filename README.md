@@ -8,7 +8,7 @@
 	<img src="https://flat.badgen.net/github/license/bensladden/vue-element-resize-detector" alt="license">
 </p>
 
-Vue Directive to detec resize events on elements or components. Uses [element Resize Detector](https://github.com/wnr/element-resize-detector) under the hood
+Vue Directive to detect resize events on elements or components. Uses [element Resize Detector](https://github.com/wnr/element-resize-detector) under the hood
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2fed56b9-e079-41c6-8fe8-bb36fe77825c/deploy-status)](https://app.netlify.com/sites/vue-element-resize-detector/deploys)
 
