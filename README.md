@@ -14,7 +14,7 @@ Vue Directive to detect resize events on elements or components. Uses [element R
 
 ## ⚙️ Installation
 ```sh
-$ npm install vue-fabric-wrapper
+$ npm install vue-element-resize-detector
 ```
 ## 📄 Documents
 [Docs Link](https://vue-element-resize-detector.netlify.com/)

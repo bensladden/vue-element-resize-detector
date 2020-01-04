@@ -9,7 +9,7 @@ sidebar: auto
 ## Setup
 
 ```sh
-$ npm install vue-fabric-wrapper
+$ npm install vue-element-resize-detector
 ```
 
 ## 🚀 How to use in Vue
