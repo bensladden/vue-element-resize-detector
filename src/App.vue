@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Vue Element Resize Detector</h1>
-    <div v-resize @resize="onResize">This divs with is: {{ width }}</div>
+    <div v-resize @resize="onResize">This divs width is: {{ width }}</div>
 
     <div class="parent">
       <div v-resize @resize="onResize2" class="column">
