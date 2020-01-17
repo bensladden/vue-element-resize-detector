@@ -2003,10 +2003,12 @@ function unbind(el) {
 
 /* harmony default export */ var src = ({
   install: function install(Vue) {
-    Vue.directive('resize', elementResizeDetector);
+    Vue.directive("resize", elementResizeDetector);
   }
 });
+
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
+/* concated harmony reexport resize */__webpack_require__.d(__webpack_exports__, "resize", function() { return elementResizeDetector; });
 
 
 /* harmony default export */ var entry_lib = __webpack_exports__["default"] = (src);
