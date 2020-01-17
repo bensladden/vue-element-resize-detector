@@ -10,7 +10,7 @@
       <div v-resize="{ callOnAdd: false }" @resize="onResize3" class="column">
         This divs width is: {{ width3 }} (callOnAdd=false)
       </div>
-      <div v-resize @resize="onResize4" class="column">
+      <div v-rlocal @resize="onResize4" class="column">
         This divs width is: {{ width4 }}
       </div>
     </div>
@@ -18,8 +18,12 @@
 </template>
 
 <script>
+import { resize } from "./index";
 export default {
   name: "app",
+  directives: {
+    rlocal: resize
+  },
   data() {
     return {
       width: 0,
